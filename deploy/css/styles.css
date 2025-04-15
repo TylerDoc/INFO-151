@@ -395,7 +395,7 @@ textarea {
   background-color: var(--snowdrop);
 }
 #hero section #hero-card h5 {
-  color: var(--nightblue);
+  color: var(night);
 }
 /* =============
     Packages
@@ -456,3 +456,23 @@ textarea {
   background-color: var(--nightblue);
   color: var(--white);
 }
+
+/* =============
+    Communication
+============= */
+#communication {
+  background-color: var(--white);
+}
+#communication h1 {
+  color: var(--nightblue);
+}
+#communication P {
+  color: var(--grey);
+}
+
+/* =============
+    Process
+============= */
+/* =============
+    About
+============= */

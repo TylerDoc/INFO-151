@@ -11,32 +11,32 @@
             article{
                 h1{ 
                     color: var(--nightblue);
-            }
+                }
 
-            p{
-                color: var(--grey);
-            }    
-            
-            // LOVE HATE //
-            a:link, a:visited{
-                background-color: var(--nightblue);
-                color: var(--white);
-            }
-            a:hover, a:focus{
+                p{
+                    color: var(--grey);
+                }    
                 
-            }
-            button{
-                background-color: var(--white);
-                border: none;
-            }
+                // LOVE HATE //
+                a:link, a:visited{
+                    background-color: var(--nightblue);
+                    color: var(--white);
+                }
+                a:hover, a:focus{
+                    
+                }
+                button{
+                    background-color: var(--white);
+                    border: none;
+                }
 
-        }
+            }
 
             #hero-card{
                 background-color: var(--snowdrop);
 
                 h5{
-                    color: var(--nightblue);
+                    color: var(night);
                 }
                 
             }
