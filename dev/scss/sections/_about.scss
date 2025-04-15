@@ -4,5 +4,45 @@
 @use "../helpers";
 
 #about{
-    
+    background-color: var(--white);
+
+    #about-container{
+          .about1{
+            img{
+                background-color: var(--white);
+            }
+            h1{
+                color: var(--nightblue);
+            }
+            p{
+                color: var(--grey);
+            }
+          }
+
+          .about2{
+            img{
+                background-color: var(--lilywhite);
+            }
+            h4{
+                color: var(--nightblue);
+            }
+            p{
+                color: var(--grey);
+            }
+          }
+
+          .about3{
+            img{
+                background-color: var(--lilywhite);
+            }
+            h4{
+                color: var(--nightblue);
+            }
+            p{
+                color: var(--grey);
+            }
+          }
+
+    }
+      
 }

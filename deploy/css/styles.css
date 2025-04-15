@@ -525,3 +525,33 @@ textarea {
 /* =============
     About
 ============= */
+#about {
+  background-color: var(--white);
+}
+#about #about-container .about1 img {
+  background-color: var(--white);
+}
+#about #about-container .about1 h1 {
+  color: var(--nightblue);
+}
+#about #about-container .about1 p {
+  color: var(--grey);
+}
+#about #about-container .about2 img {
+  background-color: var(--lilywhite);
+}
+#about #about-container .about2 h4 {
+  color: var(--nightblue);
+}
+#about #about-container .about2 p {
+  color: var(--grey);
+}
+#about #about-container .about3 img {
+  background-color: var(--lilywhite);
+}
+#about #about-container .about3 h4 {
+  color: var(--nightblue);
+}
+#about #about-container .about3 p {
+  color: var(--grey);
+}
