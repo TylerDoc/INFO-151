@@ -473,6 +473,55 @@ textarea {
 /* =============
     Process
 ============= */
+#process {
+  background-color: var(--white);
+}
+#process h1 {
+  color: var(--nightblue);
+}
+#process p {
+  color: var(--grey);
+}
+#process #package-container .package1 {
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+}
+#process #package-container .package1 img {
+  background-color: var(--lilywhite);
+}
+#process #package-container .package1 h4 {
+  color: var(--nightblue);
+}
+#process #package-container .package1 p {
+  color: var(--grey);
+}
+#process #package-container .package2 {
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+}
+#process #package-container .package2 img {
+  background-color: var(--lilywhite);
+}
+#process #package-container .package2 h4 {
+  color: var(--nightblue);
+}
+#process #package-container .package2 p {
+  color: var(--grey);
+}
+#process #package-container .package3 {
+  background-color: var(--white);
+  border: 1px solid var(--grey);
+}
+#process #package-container .package3 img {
+  background-color: var(--lilywhite);
+}
+#process #package-container .package3 h4 {
+  color: var(--nightblue);
+}
+#process #package-container .package3 p {
+  color: var(--grey);
+}
+
 /* =============
     About
 ============= */

@@ -4,5 +4,70 @@
 @use "../helpers";
 
 #process {
+    background-color: var(--white);
 
-}
+    h1{
+        color: var(--nightblue);
+    }
+
+    p{
+        color: var(--grey);
+    }
+
+    #package-container{
+        .package1{
+            background-color: var(--white);
+            border: 1px solid var(--grey);
+
+            img {
+                background-color: var(--lilywhite);
+            }
+
+            h4{
+                color: var(--nightblue);
+
+            }
+
+            p{
+                color: var(--grey);
+            }
+        }
+
+        .package2{
+            background-color: var(--white);
+            border: 1px solid var(--grey);
+
+            img {
+                background-color: var(--lilywhite);
+            }
+
+            h4{
+                color: var(--nightblue);
+
+            }
+
+            p{
+                color: var(--grey);
+            }
+        }
+
+        .package3{
+            background-color: var(--white);
+            border: 1px solid var(--grey);
+
+            img {
+                background-color: var(--lilywhite);
+            }
+
+            h4{
+                color: var(--nightblue);
+
+            }
+
+            p{
+                color: var(--grey);
+            }
+        }
+
+    }
+}    
