@@ -339,6 +339,16 @@ html {
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-title {
+  color: var(--nightblue);
+  font-size: 3.125rem;
+  line-height: 4.0625rem;
+}
+
 /* =============
     Buttons
 ============= */
@@ -379,6 +389,7 @@ textarea {
 }
 #hero section article h1 {
   color: var(--nightblue);
+  font-size: 3.125rem;
 }
 #hero section article p {
   color: var(--grey);
