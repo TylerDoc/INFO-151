@@ -556,62 +556,80 @@ textarea {
 ============= */
 #process {
   background-color: var(--white);
+  padding: 110px 24px;
+}
+#process h1 {
+  text-align: center;
 }
 #process p {
   color: var(--grey);
   font-weight: 600;
   line-height: 1.75rem;
 }
+#process #package-container {
+  padding: 24px 24px;
+}
 #process #package-container .package1 {
   background-color: var(--white);
 }
 #process #package-container .package1 img {
   background-color: var(--lilywhite);
+  margin-bottom: 50px;
 }
 #process #package-container .package1 h4 {
   color: var(--nightblue);
   font-weight: 600;
   line-height: 2.125rem;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 #process #package-container .package1 p {
   color: var(--grey);
   font-weight: 600;
   line-height: 1.75rem;
+  margin-bottom: 54px;
 }
 #process #package-container .package2 {
   background-color: var(--white);
+  margin-top: 24px;
+  margin-bottom: 24px;
 }
 #process #package-container .package2 img {
   background-color: var(--lilywhite);
+  margin-bottom: 50px;
 }
 #process #package-container .package2 h4 {
   color: var(--nightblue);
   font-weight: 600;
   line-height: 2.125rem;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 #process #package-container .package2 p {
   color: var(--grey);
   font-weight: 600;
   line-height: 1.75rem;
+  margin-bottom: 54px;
 }
 #process #package-container .package3 {
   background-color: var(--white);
 }
 #process #package-container .package3 img {
   background-color: var(--lilywhite);
+  margin-bottom: 50px;
 }
 #process #package-container .package3 h4 {
   color: var(--nightblue);
   font-weight: 600;
   line-height: 2.125rem;
   font-size: 1.5rem;
+  margin-bottom: 10px;
 }
 #process #package-container .package3 p {
   color: var(--grey);
   font-weight: 600;
   line-height: 1.75rem;
+  margin-bottom: 54px;
 }
 
 /* =============
