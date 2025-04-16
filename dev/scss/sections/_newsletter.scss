@@ -6,12 +6,15 @@
 #newsletter {
 
     background-color: var(--lilywhite);
+    padding: 40px 24px;
 
 
     p{
         color: var(--grey);
         font-weight: 600;
         line-height: helpers.rem-calc(28);
+        margin-top: 16px;
+        margin-bottom: 16px;
     }
 
     form{
@@ -20,6 +23,8 @@
             border: none;
             color: var(--grey);
             font-weight: 600;
+            height: 64px;
+            width: 322px;
         }
 
         button{
@@ -28,6 +33,10 @@
             color: var(--white);
             font-size: helpers.rem-calc(14);
             font-weight: 600;
+            width: 150px;
+            height: 60px;
+            border-radius: 6px;
+            margin-top: 16px;
         }
     }
 }    
