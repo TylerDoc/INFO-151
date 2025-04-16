@@ -12,6 +12,8 @@
 
     p{
         color: var(--grey);
+        font-weight: 600;
+        line-height: helpers.rem-calc(28);
     }
 
     #package-container{
@@ -25,11 +27,16 @@
 
             h4{
                 color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(34);
+                font-size: helpers.rem-calc(24);
 
             }
 
             p{
                 color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
             }
         }
 
@@ -43,11 +50,16 @@
 
             h4{
                 color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(34);
+                font-size: helpers.rem-calc(24);
 
             }
 
             p{
                 color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
             }
         }
 
@@ -61,11 +73,16 @@
 
             h4{
                 color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(34);
+                font-size: helpers.rem-calc(24);
 
             }
 
             p{
                 color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
             }
         }
 

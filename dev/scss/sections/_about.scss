@@ -16,6 +16,9 @@
             // }
             p{
                 color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                font-size: helpers.rem-calc(16);
             }
           }
 
@@ -25,21 +28,36 @@
             }
             h4{
                 color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                font-size: helpers.rem-calc(20);
             }
             p{
                 color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                font-size: helpers.rem-calc(16);
             }
           }
 
           .about3{
             img{
                 background-color: var(--lilywhite);
+                font-weight: 600;
+                line-height: helpers.rem-calc(12.2);
+                font-size: helpers.rem-calc(9);
             }
             h4{
                 color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                font-size: helpers.rem-calc(20);
             }
             p{
                 color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                font-size: helpers.rem-calc(16);
             }
           }
 

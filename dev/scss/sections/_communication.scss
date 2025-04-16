@@ -11,6 +11,8 @@
     // }
 
     P{
-        color: var(--grey);        
+        color: var(--grey);   
+        font-weight: 600;
+        line-height: helpers.rem-calc(28);     
     }
 }

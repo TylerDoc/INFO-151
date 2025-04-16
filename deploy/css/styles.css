@@ -500,6 +500,8 @@ textarea {
 }
 #communication P {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
 }
 
 /* =============
@@ -510,6 +512,8 @@ textarea {
 }
 #process p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
 }
 #process #package-container .package1 {
   background-color: var(--white);
@@ -520,9 +524,14 @@ textarea {
 }
 #process #package-container .package1 h4 {
   color: var(--nightblue);
+  font-weight: 600;
+  line-height: 2.125rem;
+  font-size: 1.5rem;
 }
 #process #package-container .package1 p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
 }
 #process #package-container .package2 {
   background-color: var(--white);
@@ -533,9 +542,14 @@ textarea {
 }
 #process #package-container .package2 h4 {
   color: var(--nightblue);
+  font-weight: 600;
+  line-height: 2.125rem;
+  font-size: 1.5rem;
 }
 #process #package-container .package2 p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
 }
 #process #package-container .package3 {
   background-color: var(--white);
@@ -546,9 +560,14 @@ textarea {
 }
 #process #package-container .package3 h4 {
   color: var(--nightblue);
+  font-weight: 600;
+  line-height: 2.125rem;
+  font-size: 1.5rem;
 }
 #process #package-container .package3 p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
 }
 
 /* =============
@@ -562,22 +581,40 @@ textarea {
 }
 #about #about-container .about1 p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1rem;
 }
 #about #about-container .about2 img {
   background-color: var(--lilywhite);
 }
 #about #about-container .about2 h4 {
   color: var(--nightblue);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
 }
 #about #about-container .about2 p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1rem;
 }
 #about #about-container .about3 img {
   background-color: var(--lilywhite);
+  font-weight: 600;
+  line-height: 0.7625rem;
+  font-size: 0.5625rem;
 }
 #about #about-container .about3 h4 {
   color: var(--nightblue);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
 }
 #about #about-container .about3 p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1rem;
 }
