@@ -9,19 +9,24 @@
     section{
 
             article{
-                h1{ 
-                    color: var(--nightblue);
-                    font-size: helpers.rem-calc(50);
-                }
+                // h1{ 
+                //     color: var(--nightblue);
+                //     font-size: helpers.rem-calc(50);
+                // }
 
                 p{
                     color: var(--grey);
+                    font-weight: 600;
+                    line-height: helpers.rem-calc(28);
                 }    
                 
                 // LOVE HATE //
                 a:link, a:visited{
                     background-color: var(--nightblue);
                     color: var(--white);
+                    font-size: helpers.rem-calc(14);
+                    font-weight: 600;
+                    // text-decoration: none;
                 }
                 a:hover, a:focus{
                     
@@ -37,7 +42,14 @@
                 background-color: var(--snowdrop);
 
                 h5{
-                    color: var(night);
+                    color: var(--nightblue);
+                    font-weight: 600;
+                    font-size: helpers.rem-calc(14);
+                }
+                p{
+                    font-size: helpers.rem-calc(14);
+                    font-weight: 600;
+                    line-height: helpers.rem-calc(24);
                 }
                 
             }

@@ -352,6 +352,10 @@ body {
 /* =============
     Buttons
 ============= */
+a {
+  text-decoration: none;
+}
+
 /* =============
     Forms
 ============= */
@@ -387,16 +391,16 @@ textarea {
 #hero {
   background-color: var(--lilywhite);
 }
-#hero section article h1 {
-  color: var(--nightblue);
-  font-size: 3.125rem;
-}
 #hero section article p {
   color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
 }
 #hero section article a:link, #hero section article a:visited {
   background-color: var(--nightblue);
   color: var(--white);
+  font-size: 0.875rem;
+  font-weight: 600;
 }
 #hero section article button {
   background-color: var(--white);
@@ -406,16 +410,20 @@ textarea {
   background-color: var(--snowdrop);
 }
 #hero section #hero-card h5 {
-  color: var(night);
+  color: var(--nightblue);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+#hero section #hero-card p {
+  font-size: 0.875rem;
+  font-weight: 600;
+  line-height: 1.5rem;
 }
 /* =============
     Packages
 ============= */
 #packages {
   background-color: var(--lilywhite);
-}
-#packages h1 {
-  color: var(--nightblue);
 }
 #packages #package-button-container {
   background-color: var(--white);
@@ -452,9 +460,6 @@ textarea {
 #newsletter {
   background-color: var(--lilywhite);
 }
-#newsletter h1 {
-  color: var(--nightblue);
-}
 #newsletter p {
   color: var(--grey);
 }
@@ -474,9 +479,6 @@ textarea {
 #communication {
   background-color: var(--white);
 }
-#communication h1 {
-  color: var(--nightblue);
-}
 #communication P {
   color: var(--grey);
 }
@@ -486,9 +488,6 @@ textarea {
 ============= */
 #process {
   background-color: var(--white);
-}
-#process h1 {
-  color: var(--nightblue);
 }
 #process p {
   color: var(--grey);
@@ -541,9 +540,6 @@ textarea {
 }
 #about #about-container .about1 img {
   background-color: var(--white);
-}
-#about #about-container .about1 h1 {
-  color: var(--nightblue);
 }
 #about #about-container .about1 p {
   color: var(--grey);
