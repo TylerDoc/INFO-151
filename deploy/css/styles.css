@@ -517,7 +517,6 @@ textarea {
 }
 #process #package-container .package1 {
   background-color: var(--white);
-  border: 1px solid var(--grey);
 }
 #process #package-container .package1 img {
   background-color: var(--lilywhite);
@@ -535,7 +534,6 @@ textarea {
 }
 #process #package-container .package2 {
   background-color: var(--white);
-  border: 1px solid var(--grey);
 }
 #process #package-container .package2 img {
   background-color: var(--lilywhite);
@@ -553,7 +551,6 @@ textarea {
 }
 #process #package-container .package3 {
   background-color: var(--white);
-  border: 1px solid var(--grey);
 }
 #process #package-container .package3 img {
   background-color: var(--lilywhite);
