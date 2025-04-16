@@ -5,7 +5,8 @@
 
 #communication{
     background-color: var(--white);
-
+    padding: 107px 24px;
+    text-align: center;
     // h1{
     //     color: var(--nightblue);
     // }
@@ -14,5 +15,7 @@
         color: var(--grey);   
         font-weight: 600;
         line-height: helpers.rem-calc(28);     
+        margin-top: 24px;
+        margin-bottom: 48px
     }
 }

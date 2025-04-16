@@ -540,11 +540,15 @@ textarea {
 ============= */
 #communication {
   background-color: var(--white);
+  padding: 107px 24px;
+  text-align: center;
 }
 #communication P {
   color: var(--grey);
   font-weight: 600;
   line-height: 1.75rem;
+  margin-top: 24px;
+  margin-bottom: 48px;
 }
 
 /* =============
