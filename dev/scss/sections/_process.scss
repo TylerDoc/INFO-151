@@ -1,0 +1,105 @@
+/* =============
+    Process
+============= */
+@use "../helpers";
+
+#process {
+    background-color: var(--white);
+    padding:  110px 24px;
+
+   
+    h1{
+        text-align: center;
+    }
+
+    p{
+        color: var(--grey);
+        font-weight: 600;
+        line-height: helpers.rem-calc(28);
+        
+    }
+
+    #package-container{
+        padding: 24px 24px;
+        .package1{
+            background-color: var(--white);
+            
+
+            img {
+                background-color: var(--lilywhite);
+                margin-bottom: 50px;
+            }
+
+            h4{
+                color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(34);
+                font-size: helpers.rem-calc(24);
+                margin-bottom: 10px;
+
+            }
+
+            p{
+                color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                margin-bottom: 54px;
+            }
+        }
+
+        .package2{
+            background-color: var(--white);
+            margin-top: 24px;
+            margin-bottom: 24px;
+            
+
+            img {
+                background-color: var(--lilywhite);
+                margin-bottom: 50px;
+            }
+
+            h4{
+                color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(34);
+                font-size: helpers.rem-calc(24);
+                margin-bottom: 10px;
+
+            }
+
+            p{
+                color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                margin-bottom: 54px;
+            }
+        }
+
+        .package3{
+            background-color: var(--white);
+            
+
+            img {
+                background-color: var(--lilywhite);
+                margin-bottom: 50px;
+            }
+
+            h4{
+                color: var(--nightblue);
+                font-weight: 600;
+                line-height: helpers.rem-calc(34);
+                font-size: helpers.rem-calc(24);
+                margin-bottom: 10px;
+
+            }
+
+            p{
+                color: var(--grey);
+                font-weight: 600;
+                line-height: helpers.rem-calc(28);
+                margin-bottom: 54px;
+            }
+        }
+
+    }
+}    

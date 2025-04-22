@@ -316,6 +316,14 @@ template {
 :root {
   --black: #000000;
   --white: #ffffff;
+  --white80: #ffffff80;
+  --ghost: #f0faff;
+  --grey: #9090A7;
+  --nightblue: #060640;
+  --aqua: #00E5CC;
+  --snowdrop: #F9FDFF;
+  --lilywhite: #ECF9FF;
+  --jaguar: #000020;
 }
 
 /* ---------------- Font Sizing ---------------- */
@@ -324,12 +332,48 @@ html {
 }
 
 /* ---------------- Media Queries ---------------- */
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.img-scaler {
+  width: 100%;
+}
+
 /* =============
     Typography
 ============= */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.section-title {
+  color: var(--nightblue);
+  font-size: 3.125rem;
+  line-height: 4.0625rem;
+}
+
 /* =============
     Buttons
 ============= */
+a {
+  text-decoration: none;
+}
+
 /* =============
     Forms
 ============= */
@@ -359,3 +403,303 @@ textarea {
 /* =============
     Footer
 ============= */
+/* =============
+    Hero
+============= */
+#hero {
+  background-color: var(--lilywhite);
+  padding: 56px 24px;
+}
+#hero section article p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+#hero section article a:link, #hero section article a:visited {
+  background-color: var(--nightblue);
+  color: var(--white);
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 22px 36px;
+  border-radius: 6px;
+  display: inline-block;
+}
+#hero section article button {
+  background-color: var(--white);
+  border: none;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  margin-left: 30px;
+}
+#hero section #hero-card {
+  background-color: var(--snowdrop);
+  margin-top: 70px;
+  padding: 24px 20px;
+  border-radius: 12px;
+}
+#hero section #hero-card h5 {
+  color: var(--nightblue);
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+#hero section #hero-card p {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+/* =============
+    Packages
+============= */
+#packages {
+  background-color: var(--lilywhite);
+  padding: 100px 24px;
+}
+#packages #top-content {
+  text-align: center;
+}
+#packages #top-content #package-button-container {
+  background-color: var(--white);
+  display: inline-block;
+  margin: 24px 0;
+  padding: 8px;
+  border-radius: 10px;
+}
+#packages #top-content #package-button-container button {
+  border: none;
+}
+#packages #top-content #package-button-container #left-arrow {
+  background-color: var(--white);
+  color: var(--grey);
+  padding: 13px 18px;
+  border-radius: 8px;
+}
+#packages #top-content #package-button-container #right-arrow {
+  background-color: var(--aqua);
+  color: var(--white);
+  padding: 13px 18px;
+  border-radius: 8px;
+}
+#packages #package-card-container .package-card {
+  background-color: var(--white80);
+  border: 1px solid var(--white);
+  margin-bottom: 48px;
+  padding: 16px;
+  border-radius: 14px;
+}
+#packages #package-card-container .package-card p {
+  color: var(--nightblue);
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  margin: 20px 0 16px;
+}
+#packages #package-card-container .package-card h4 {
+  color: var(--grey);
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+#packages #package-card-container .package-card h3 {
+  color: var(--aqua);
+  font-size: 0.875rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+}
+#packages #package-card-container .selected {
+  background-color: var(--white);
+}
+
+/* =============
+    Newsletter
+============= */
+#newsletter {
+  background-color: var(--lilywhite);
+  padding: 40px 24px;
+}
+#newsletter p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+#newsletter form input {
+  border: none;
+  color: var(--grey);
+  font-weight: 600;
+  height: 64px;
+  width: 322px;
+}
+#newsletter form button {
+  border: none;
+  background-color: var(--nightblue);
+  color: var(--white);
+  font-size: 0.875rem;
+  font-weight: 600;
+  width: 150px;
+  height: 60px;
+  border-radius: 6px;
+  margin-top: 16px;
+}
+
+/* =============
+    Communication
+============= */
+#communication {
+  background-color: var(--white);
+  padding: 107px 24px;
+  text-align: center;
+}
+#communication P {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+/* =============
+    Process
+============= */
+#process {
+  background-color: var(--white);
+  padding: 110px 24px;
+}
+#process h1 {
+  text-align: center;
+}
+#process p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+}
+#process #package-container {
+  padding: 24px 24px;
+}
+#process #package-container .package1 {
+  background-color: var(--white);
+}
+#process #package-container .package1 img {
+  background-color: var(--lilywhite);
+  margin-bottom: 50px;
+}
+#process #package-container .package1 h4 {
+  color: var(--nightblue);
+  font-weight: 600;
+  line-height: 2.125rem;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+#process #package-container .package1 p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 54px;
+}
+#process #package-container .package2 {
+  background-color: var(--white);
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+#process #package-container .package2 img {
+  background-color: var(--lilywhite);
+  margin-bottom: 50px;
+}
+#process #package-container .package2 h4 {
+  color: var(--nightblue);
+  font-weight: 600;
+  line-height: 2.125rem;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+#process #package-container .package2 p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 54px;
+}
+#process #package-container .package3 {
+  background-color: var(--white);
+}
+#process #package-container .package3 img {
+  background-color: var(--lilywhite);
+  margin-bottom: 50px;
+}
+#process #package-container .package3 h4 {
+  color: var(--nightblue);
+  font-weight: 600;
+  line-height: 2.125rem;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+#process #package-container .package3 p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  margin-bottom: 54px;
+}
+
+/* =============
+    About
+============= */
+#about {
+  background-color: var(--white);
+  padding: 60px 24px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+#about #about-container .about1 img {
+  background-color: var(--white);
+}
+#about #about-container .about1 h1 {
+  margin-bottom: 30px;
+}
+#about #about-container .about1 p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+#about #about-container .about2 img {
+  background-color: var(--lilywhite);
+}
+#about #about-container .about2 h4 {
+  color: var(--nightblue);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+}
+#about #about-container .about2 p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+#about #about-container .about3 img {
+  background-color: var(--lilywhite);
+  font-weight: 600;
+  line-height: 0.7625rem;
+  font-size: 0.5625rem;
+}
+#about #about-container .about3 h4 {
+  color: var(--nightblue);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1.25rem;
+}
+#about #about-container .about3 p {
+  color: var(--grey);
+  font-weight: 600;
+  line-height: 1.75rem;
+  font-size: 1rem;
+  margin-bottom: 16px;
+}
+#about aside {
+  border-radius: 8px;
+  margin-top: 69px;
+  margin-left: -28px;
+}
