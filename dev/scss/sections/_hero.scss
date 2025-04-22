@@ -7,7 +7,40 @@
     background-color: var(--lilywhite);
     padding: 56px 24px;
 
+    @include helpers.xl{
+        padding: 100px 24px;
+    }
+
+    #hero-content-container{
+        
+        @include helpers.md{
+            display: grid;
+            grid-template-areas: "hero-img"
+                                "hero-content";
+            // grid-template-columns: 50% auto;
+        }
+    
+        @include helpers.xl{
+            grid-template-columns: 40% auto;
+            grid-template-areas: "hero-content hero-img";
+    
+            max-width: 1200px;
+            margin: 0 auto;
+        }        
+    
     section{
+        @include helpers.md{
+            grid-area: hero-content;
+            padding: 0 15vw;
+        }
+
+        @include helpers.lg{
+            padding: 0 25vw;
+        }
+
+        @include helpers.xl{
+            padding: 0;
+        }
 
         article{
 
@@ -67,6 +100,9 @@
     }
 
     aside{
-
+        @include helpers.md{
+            grid-area: hero-img;
+        }
+    }
     }
 }
