@@ -782,23 +782,59 @@ textarea {
   background-color: var(--white);
   padding: 110px 24px;
 }
+@media (min-width: 768px) {
+  #process {
+    padding: 110px 120px;
+  }
+}
+@media (min-width: 992px) {
+  #process {
+    padding: 110px 120px;
+  }
+}
+#process img {
+  display: block;
+  margin: 0 auto;
+}
 #process h1 {
   text-align: center;
 }
 #process p {
   color: var(--grey);
+  text-align: center;
   font-weight: 600;
   line-height: 1.75rem;
 }
 #process #package-container {
   padding: 24px 24px;
 }
+@media (min-width: 768px) {
+  #process #package-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "pac1 pac2 pac3";
+  }
+}
+@media (min-width: 1200px) {
+  #process #package-container {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+    grid-template-columns: repeat(3, 1fr);
+        grid-template-areas: "pac1 pac2 pac3";
+  }
+}
 #process #package-container .package1 {
   background-color: var(--white);
+  padding: 30px;
 }
 #process #package-container .package1 img {
   background-color: var(--lilywhite);
+  padding: 10px;
   margin-bottom: 50px;
+  display: inline-block;
 }
 #process #package-container .package1 h4 {
   color: var(--nightblue);
@@ -815,12 +851,14 @@ textarea {
 }
 #process #package-container .package2 {
   background-color: var(--white);
-  margin-top: 24px;
   margin-bottom: 24px;
+  padding: 30px;
 }
 #process #package-container .package2 img {
   background-color: var(--lilywhite);
   margin-bottom: 50px;
+  padding: 10px;
+  display: inline-block;
 }
 #process #package-container .package2 h4 {
   color: var(--nightblue);
@@ -837,10 +875,13 @@ textarea {
 }
 #process #package-container .package3 {
   background-color: var(--white);
+  padding: 30px;
 }
 #process #package-container .package3 img {
   background-color: var(--lilywhite);
   margin-bottom: 50px;
+  padding: 10px;
+  display: inline-block;
 }
 #process #package-container .package3 h4 {
   color: var(--nightblue);
