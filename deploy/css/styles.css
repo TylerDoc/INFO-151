@@ -757,6 +757,16 @@ textarea {
   padding: 107px 24px;
   text-align: center;
 }
+@media (min-width: 768px) {
+  #communication {
+    padding: 60px 60px;
+  }
+}
+@media (min-width: 992px) {
+  #communication {
+    padding: 107px 338px;
+  }
+}
 #communication P {
   color: var(--grey);
   font-weight: 600;

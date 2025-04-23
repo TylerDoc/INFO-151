@@ -7,15 +7,40 @@
     background-color: var(--white);
     padding: 107px 24px;
     text-align: center;
-    // h1{
-    //     color: var(--nightblue);
+    // display: grid;
+    // grid-template-columns: repeat(4, 1fr);
+    // grid-template-areas: "... img1 ... ..."
+    //                      "...  g1 g2 ...";
+
+        // h1{
+        //     color: var(--nightblue);
+        // }
+
+    @include helpers.md{
+        padding: 60px 60px;
+    }
+
+    @include helpers.lg{
+        padding: 107px 338px;
+        
+    }
+
+    // #communication-title{
+       
+    //     @include helpers.md{
+    //         padding: 60px 60px;
+    //     }
+    
+    //     @include helpers.lg{
+    //         padding: 107px 338px;
+    //     }
     // }
 
-    P{
-        color: var(--grey);   
-        font-weight: 600;
-        line-height: helpers.rem-calc(28);     
-        margin-top: 24px;
-        margin-bottom: 48px
-    }
+        P{
+            color: var(--grey);   
+            font-weight: 600;
+            line-height: helpers.rem-calc(28);     
+            margin-top: 24px;
+            margin-bottom: 48px
+        }
 }
