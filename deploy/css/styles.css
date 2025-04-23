@@ -654,24 +654,36 @@ textarea {
     Newsletter
 ============= */
 #newsletter {
+  margin-bottom: 100px;
+}
+#newsletter #newsletter-content {
   background-color: var(--lilywhite);
-  padding: 40px 24px;
+  padding: 60px 16px;
 }
-#newsletter p {
-  color: var(--grey);
-  font-weight: 600;
-  line-height: 1.75rem;
-  margin-top: 16px;
-  margin-bottom: 16px;
+@media (min-width: 768px) {
+  #newsletter #newsletter-content {
+    padding: 60px 20vw;
+  }
 }
-#newsletter form input {
-  border: none;
-  color: var(--grey);
-  font-weight: 600;
-  height: 64px;
-  width: 322px;
+@media (min-width: 992px) {
+  #newsletter #newsletter-content {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 60px auto;
+    grid-template-columns: 60% auto;
+    padding: 0px 0px;
+    gap: 60px;
+  }
 }
-#newsletter form button {
+@media (min-width: 1200px) {
+  #newsletter #newsletter-content {
+    width: 1200px;
+    -ms-grid-columns: 65% auto;
+    grid-template-columns: 65% auto;
+    margin: 0 auto;
+  }
+}
+#newsletter #newsletter-content button {
   border: none;
   background-color: var(--nightblue);
   color: var(--white);
@@ -682,7 +694,61 @@ textarea {
   border-radius: 6px;
   margin-top: 16px;
 }
-
+#newsletter #newsletter-content p {
+  margin: 16px 0;
+  color: var(--grey);
+}
+#newsletter #newsletter-content input {
+  border: none;
+  color: var(--grey);
+  font-weight: 600;
+  width: 100%;
+  padding: 24px 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+@media (min-width: 992px) {
+  #newsletter #newsletter-content #newsletter-left {
+    padding: 60px 0px 60px 60px;
+  }
+}
+#newsletter #newsletter-content #newsletter-left form ::-webkit-input-placeholder {
+  color: var(--grey);
+  opacity: 1; /*Firefox */
+}
+#newsletter #newsletter-content #newsletter-left form ::-moz-placeholder {
+  color: var(--grey);
+  opacity: 1; /*Firefox */
+}
+#newsletter #newsletter-content #newsletter-left form :-ms-input-placeholder {
+  color: var(--grey);
+  opacity: 1; /*Firefox */
+}
+#newsletter #newsletter-content #newsletter-left form ::-ms-input-placeholder {
+  color: var(--grey);
+  opacity: 1; /*Firefox */
+}
+#newsletter #newsletter-content #newsletter-left form ::placeholder {
+  color: var(--grey);
+  opacity: 1; /*Firefox */
+}
+#newsletter #newsletter-content #newsletter-left form ::-ms-input-placeholder { /* edge 12 -18 */
+  color: var(--grey);
+}
+#newsletter #newsletter-content #newsletter-left form div {
+  text-align: right;
+  margin-top: 16px;
+}
+#newsletter #newsletter-content aside {
+  display: none;
+}
+@media (min-width: 992px) {
+  #newsletter #newsletter-content aside {
+    display: block;
+  }
+}
 /* =============
     Communication
 ============= */
