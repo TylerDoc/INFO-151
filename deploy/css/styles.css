@@ -947,6 +947,17 @@ textarea {
   background-color: var(--white);
   padding: 110px 24px;
 }
+#process #works-title {
+  text-align: center;
+}
+#process #works-title .works-p {
+  margin: 12px 0 24px;
+}
+@media (min-width: 768px) {
+  #process #works-title .works-p {
+    padding: 0 15vw;
+  }
+}
 @media (min-width: 768px) {
   #process {
     padding: 110px 120px;

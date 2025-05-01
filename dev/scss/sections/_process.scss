@@ -6,10 +6,23 @@
 #process {
     background-color: var(--white);
     padding:  110px 24px;
+
+    #works-title{
+        text-align: center;
+
+        .works-p{
+            margin: 12px 0 24px;
+
+            @include helpers.md{
+                padding: 0 15vw;
+            }
+        }
+    }
     
 
     @include helpers.md{
         padding: 110px 120px;
+
     }
 
     @include helpers.lg{
