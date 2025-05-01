@@ -9,6 +9,7 @@
     margin-top: -60px;
     margin-bottom: -10px; 
     display: grid;
+    // border: 1px solid red;
     // grid-template-columns: repeat(2, 1fr);
     // grid-template-areas: "about-container about-img";
 
@@ -29,7 +30,7 @@
    
 
     #about-container{
-
+        grid-area: about-container;
         // @include helpers.md{
         //     padding: 60px 135px 113px 135px;
            
@@ -44,13 +45,14 @@
           .about1{
             img{
                 background-color: var(--white);
+                // padding: 10px;
                 // display: block; // Ensures proper block behavior
                 // margin: -10px auto 0 -20px; 
                 
             }
 
             h1{
-                margin-bottom: 30px;
+                margin-bottom: 12px;
             }
            
             p{
@@ -63,14 +65,31 @@
           }
 
           .about2{
+            margin-top: 40px;
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+            margin-bottom: 30px;
+
+        
             img{
                 background-color: var(--lilywhite);
+                padding: 15px;
             }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 8px;
+
+            }
+
             h4{
                 color: var(--nightblue);
                 font-weight: 600;
                 line-height: helpers.rem-calc(28);
                 font-size: helpers.rem-calc(20);
+                margin-bottom: 8px;
             }
             p{
                 color: var(--grey);
@@ -78,21 +97,35 @@
                 line-height: helpers.rem-calc(28);
                 font-size: helpers.rem-calc(16);
                 margin-bottom: 16px;
+                margin-bottom: 0px;
             }
           }
 
           .about3{
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+
             img{
                 background-color: var(--lilywhite);
                 font-weight: 600;
                 line-height: helpers.rem-calc(12.2);
                 font-size: helpers.rem-calc(9);
+                padding: 15px;
             }
+
+            div{
+                display: flex;
+                flex-direction: column;
+                margin-bottom: 8px;
+            }
+
             h4{
                 color: var(--nightblue);
                 font-weight: 600;
                 line-height: helpers.rem-calc(28);
                 font-size: helpers.rem-calc(20);
+                margin-bottom: 8px;
             }
             p{
                 color: var(--grey);
@@ -105,13 +138,20 @@
 
     }
     aside{
-        border-radius: 8px;
-        padding-top: 69px;
-        // margin-top: 69px;
-        margin-left: -28px;
-        display: block;
-        margin: 0 auto;
-        
+        grid-area: about-img;
+        margin-left: 69px; // Keeps .about-img 69px to the right of #about-container
+        // height: 100%; // Stretches the aside to the full height of the container
+        display: flex;
+        align-items: stretch;
+
+        .about-img{
+           border-radius: 8px;
+            padding-top: 69px; 
+            height: 100%;
+            object-fit: cover;
+            // margin-top: 69px;
+        // margin-left: -28px;
+        } 
     }
 
 }
