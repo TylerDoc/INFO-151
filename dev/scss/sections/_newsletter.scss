@@ -38,23 +38,23 @@
             width: 150px;
             height: 60px;
             border-radius: 6px;
-            margin-top: 16px;
+            margin-top: -16px;
         }
             p{
                 margin: 16px 0;
                 color: var(--grey);
             }
 
-            input{
-                border: none;
-                color: var(--grey);
-                font-weight: 600;
-                width: 100%;
-                padding: 24px 8px;
-                box-sizing: border-box;
-                border-radius: 8px;
-                margin-bottom: 16px;
-            }
+            // input{
+            //     border: none;
+            //     color: var(--grey);
+            //     font-weight: 600;
+            //     width: 100%;
+            //     padding: 24px 8px;
+            //     box-sizing: border-box;
+            //     border-radius: 8px;
+            //     margin-bottom: 16px;
+            // }
 
         #newsletter-left{
             
@@ -63,17 +63,29 @@
             }
             
             form{
+                
+                @include helpers.md{
+                    display: flex;
+                    padding: 12px 8px;
+                    align-items: center;
+                    background-color: var(--white);
+                    border-radius: 8px;
+                }
 
-                // input{
-                //     border: none;
-                //     color: var(--grey);
-                //     font-weight: 600;
-                //     width: 100%;
-                //     padding: 24px 8px;
-                //     box-sizing: border-box;
-                //     border-radius: 8px;
-                //     margin-bottom: 16px;
-                // }
+                input{
+                    border: none;
+                    color: var(--grey);
+                    font-weight: 600;
+                    width: 100%;
+                    padding: 24px 8px;
+                    box-sizing: border-box;
+                    border-radius: 8px;
+                    margin-bottom: 16px;
+
+                    @include helpers.md{
+                        margin-bottom: 0px;
+                    }
+                }
                 
                 ::placeholder{
                     color: var(--grey);
